@@ -247,19 +247,6 @@ Page {
             }
 
             Label {
-                enabled: appWindow.config.enableHapticFeedback && switchEnableHaptic.enabled
-                opacity: enabled ? 1.0 : Theme.opacityLow
-                x: Theme.horizontalPageMargin
-                width: page.width - 2*x
-                wrapMode: Text.Wrap
-                font.pixelSize: Theme.fontSizeExtraSmall
-                text: qsTr("Note: on SailfishOS 4.3 to 4.5, vibrations only work if " +
-                           "the “Touchscreen vibration” setting in the system " +
-                           "settings is enabled. This is fixed in SailfishOS 4.6.")
-                color: Theme.secondaryHighlightColor
-            }
-
-            Label {
                 visible: !appWindow.haveFeedbackEffect || !appWindow.haveRumbleEffect
                 x: Theme.horizontalPageMargin
                 width: page.width - 2*x

@@ -10,6 +10,7 @@ import Nemo.Configuration 1.0
 import Nemo.Notifications 1.0
 import Nemo.KeepAlive 1.2
 import QtMultimedia 5.6
+import QtFeedback 5.0
 import "pages"
 
 import Opal.About 1.0 as A
@@ -200,7 +201,7 @@ ApplicationWindow {
 
     property ConfigurationGroup config: ConfigurationGroup {
     // property QtObject config: QtObject {  // mock for debugging
-        path: "/apps/harbour-minidoro"
+        path: "/apps/moe.smoothie.minidoro"
         property int workDuration: 15*60
         property int breakDuration: 5*60
         property int longBreakDuration: 15*60
@@ -268,14 +269,45 @@ ApplicationWindow {
         property int longPause: 3
     }
 
-    property QtObject _feedbackEffect
-    property QtObject _rumbleEffect
+    property QtObject _feedbackEffect: HapticsEffect {
+        attackIntensity: 0.0
+        attackTime: 0
+        intensity: 1.0
+        duration: 50
+        fadeTime: 0
+        fadeIntensity: 0.0
+        period: 0
+
+        function play() {
+            start() 
+        }
+    }
+    
+    property QtObject _rumbleEffect: HapticsEffect {
+        attackIntensity: 0.0
+        attackTime: 250
+        intensity: 1.0
+        duration: 400
+        fadeTime: 250
+        fadeIntensity: 0.0
+        period: 1000
+    }
+
     readonly property int _rumbleCount: {
         if (config.hapticIntensity > 1) return 4
         else return Math.round(config.hapticIntensity * 10 / 2.5)
     }
 
-    property QtObject wallClock
+    property QtObject wallClock: Timer {
+        property date time: new Date()
+
+        interval: 1000 // 1 second
+        repeat: true
+        running: true
+
+        onTriggered: time = new Date()
+    }
+
     readonly property string appName: qsTr("Minidoro")
 
     initialPage: Component { MainPage { } }
@@ -382,66 +414,5 @@ ApplicationWindow {
         contents: Component {
             MySupportDialog {}
         }
-    }
-
-    Component.onCompleted: {
-        // Extensions that are not crucial and are generally not allowed in
-        // Jolla's Harbour store are loaded dynamically. The app will handle
-        // it gracefully if loading fails.
-
-        // Avoid hard dependency on Nemo.Time and load it in a complicated
-        // way to make Jolla's validator script happy.
-        wallClock = Qt.createQmlObject("
-            import QtQuick 2.0
-            import %1 1.0
-            WallClock {
-                enabled: Qt.application.active
-                updateFrequency: WallClock.Minute
-            }".arg("Nemo.Time"), appWindow, 'WallClock')
-
-        // QtFeedback is not declared stable but may be allowed in Harbour.
-        // Still, loading it dynamically may be safer because then breaking
-        // the API does not break the whole app.
-        // See: https://docs.sailfishos.org/Develop/Apps/Harbour/Allowed_APIs/#qtfeedback-hasnt-been-declared-stable-but-we-allow-a-restricted-part
-        // Checked: 2025-08-17, 2022-03-13
-
-        // This only works if "Touchscreen vibration" is enabled in system settings.
-        // Checked: Sailfish 4.6, 4.3
-        /*_feedbackEffect = Qt.createQmlObject("
-            import QtQuick 2.0
-            import QtFeedback 5.0
-            ThemeEffect {
-                effect: ThemeEffect.PressStrong
-            }", appWindow, 'ThemeEffect')*/
-
-        // This works even without "Touchscreen vibration" in system settings.
-        // Checked: Sailfish 4.6
-        _feedbackEffect = Qt.createQmlObject("
-            import QtQuick 2.0
-            import QtFeedback 5.0
-            HapticsEffect {
-                attackIntensity: 0.0
-                attackTime: 0
-                intensity: 1.0
-                duration: 50
-                fadeTime: 0
-                fadeIntensity: 0.0
-                period: 0
-
-                function play() { start() }
-            }", appWindow, 'RumbleEffect')
-
-        _rumbleEffect = Qt.createQmlObject("
-            import QtQuick 2.0
-            import QtFeedback 5.0
-            HapticsEffect {
-                attackIntensity: 0.0
-                attackTime: 250
-                intensity: 1.0
-                duration: 400
-                fadeTime: 250
-                fadeIntensity: 0.0
-                period: 1000
-            }", appWindow, 'RumbleEffect')
     }
 }

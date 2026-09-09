@@ -602,32 +602,27 @@
         <translation>В тихих помещениях рекомендуется выбирать низкую силу вибрации. Средняя сила вибрации предназначена для напряженной обстановки и сосредоточенной работы.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="256"/>
-        <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="275"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="262"/>
         <source>General</source>
         <translation>Общие настройки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="279"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="266"/>
         <source>Keep the display on</source>
         <translation>Держать дисплей включенным</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="280"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation>Убедитесь, что дисплей не выключается во время работы.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="287"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="274"/>
         <source>Use color icons</source>
         <translation>Использовать цветные значки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="288"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="275"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation>Отключите эту опцию, если вы предпочитаете значки, более подходящие к системной атмосфере (теме оформления).</translation>
     </message>
@@ -664,7 +659,7 @@
         <translation>Сильно</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="268"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="255"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>Примечание: не удалось инициализировать модуль тактильной обратной связи. Этого не должно происходить и, скорее всего, является ошибкой. Пожалуйста, сообщите об этом автору.</translation>
     </message>
@@ -705,58 +700,58 @@
 <context>
     <name>moe.smoothie.minidoro</name>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="279"/>
-        <source>Minidoro</source>
-        <translation>Minidoro</translation>
-    </message>
-    <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="259"/>
-        <source>Work</source>
-        <translation>Работа</translation>
-    </message>
-    <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="152"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="153"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation>h:mm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="188"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="189"/>
         <source>%n minute(s) break</source>
-        <translation>
-            <numerusform>%n-минутный перерыв</numerusform>
-            <numerusform>%n-минутный перерыв</numerusform>
-            <numerusform>%n минутный перерыв</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="190"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="191"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation>Сделайте перерыв до %1 час(а/ов).</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="193"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="194"/>
         <source>%n minute(s) of work</source>
-        <translation>
-            <numerusform>%n минута работы</numerusform>
-            <numerusform>%n минуты работы</numerusform>
-            <numerusform>%n минут работы</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="195"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="196"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation>Работайте до %1 час(а/ов).</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="260"/>
-        <source>Break</source>
-        <translation>Перерыв</translation>
+        <source>Work</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="261"/>
+        <source>Break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="262"/>
         <source>Long Break</source>
-        <translation>Длительный перерыв</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="311"/>
+        <source>Minidoro</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

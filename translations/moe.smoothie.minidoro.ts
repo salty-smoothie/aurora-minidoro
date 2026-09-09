@@ -594,32 +594,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="256"/>
-        <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="275"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="262"/>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="279"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="266"/>
         <source>Keep the display on</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="280"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="287"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="274"/>
         <source>Use color icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="288"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="275"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -654,7 +649,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="268"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="255"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -695,53 +690,53 @@
 <context>
     <name>moe.smoothie.minidoro</name>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="279"/>
-        <source>Minidoro</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="259"/>
-        <source>Work</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="152"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="153"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="188"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="189"/>
         <source>%n minute(s) break</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="190"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="191"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="193"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="194"/>
         <source>%n minute(s) of work</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="195"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="196"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="260"/>
-        <source>Break</source>
+        <source>Work</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="261"/>
+        <source>Break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="262"/>
         <source>Long Break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="311"/>
+        <source>Minidoro</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
