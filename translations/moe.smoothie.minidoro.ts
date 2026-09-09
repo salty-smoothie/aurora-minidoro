@@ -4,112 +4,127 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="44"/>
+        <location filename="../qml/pages/AboutPage.qml" line="48"/>
         <source>Minidoro is a minimalist Pomodoro® Technique timer helping to get things done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="85"/>
+        <location filename="../qml/pages/AboutPage.qml" line="89"/>
         <source>How it works</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="86"/>
+        <location filename="../qml/pages/AboutPage.qml" line="90"/>
         <source>The Pomodoro® Technique is an extremely simple but efficient time management technique developed by Francesco Cirillo. The basic idea is it&apos;s simpler to concentrate on work for a relatively short period, keeping in mind you can take a rest or switch to another activity afterwards.&lt;br&gt;&lt;li&gt;· Split your work for 25 minute intervals, separated by short break periods.&lt;/li&gt;&lt;li&gt;· In these 25 minute intervals try to focus on your work as much as possible, try to not distract yourself and to avoid other distractions.&lt;/li&gt;&lt;li&gt;· After a 25 minute interval take a 5 minute break. During this break do any other activities except for the previous work.&lt;/li&gt;&lt;li&gt;· Return to the work after the break.&lt;/li&gt;&lt;li&gt;· Take a long break of about 10–30 minutes after every 4 work intervals.&lt;/li&gt;&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="106"/>
+        <location filename="../qml/pages/AboutPage.qml" line="110"/>
         <source>Website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="126"/>
+        <location filename="../qml/pages/AboutPage.qml" line="130"/>
         <source>Acknowledgments</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="127"/>
+        <location filename="../qml/pages/AboutPage.qml" line="131"/>
         <source>This app is modelled after Minidoro for Android by Yury Pavlov.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="134"/>
+        <location filename="../qml/pages/AboutPage.qml" line="138"/>
         <source>Development</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="137"/>
+        <location filename="../qml/pages/AboutPage.qml" line="141"/>
         <source>Programming</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="141"/>
+        <location filename="../qml/pages/AboutPage.qml" line="145"/>
         <source>Icon Design</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="149"/>
+        <location filename="../qml/pages/AboutPage.qml" line="153"/>
         <source>Translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="152"/>
+        <location filename="../qml/pages/AboutPage.qml" line="156"/>
         <source>Ukrainian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="159"/>
+        <location filename="../qml/pages/AboutPage.qml" line="163"/>
         <source>Turkish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="173"/>
+        <location filename="../qml/pages/AboutPage.qml" line="177"/>
         <source>Russian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="179"/>
+        <location filename="../qml/pages/AboutPage.qml" line="183"/>
         <source>Indonesian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="191"/>
+        <location filename="../qml/pages/AboutPage.qml" line="195"/>
         <source>Finnish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="197"/>
+        <location filename="../qml/pages/AboutPage.qml" line="201"/>
         <source>Estonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="203"/>
+        <location filename="../qml/pages/AboutPage.qml" line="207"/>
         <source>English</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="209"/>
+        <location filename="../qml/pages/AboutPage.qml" line="213"/>
         <source>Chinese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="185"/>
+        <location filename="../qml/pages/AboutPage.qml" line="189"/>
         <source>German</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="165"/>
+        <location filename="../qml/pages/AboutPage.qml" line="34"/>
+        <source>If you found this app helpful, feel welcome to support the original developer or the Aurora OS port maintainer by donating.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="39"/>
+        <source>App dev&apos;s Liberapay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="43"/>
+        <source>Port maintainer&apos;s Boosty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="169"/>
         <source>Swedish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="114"/>
+        <location filename="../qml/pages/AboutPage.qml" line="118"/>
         <source>Counters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="115"/>
+        <location filename="../qml/pages/AboutPage.qml" line="119"/>
         <source>There are two counters at the bottom of the main page. For example, you can use the left counter (star) to count external interruptions, i.e. someone interrupting you. Then use the right counter (circle) to count internal interruptions, i.e. how often you interrupt yourself. You can also use one counter to keep track of ideas you have while working that are not relevant for your current task. In the break, you can then take a note for each idea you counted.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -184,6 +199,15 @@
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
+    <message numerus="yes">
+        <location filename="../qml/pages/MainPage.qml" line="222"/>
+        <location filename="../qml/pages/MainPage.qml" line="228"/>
+        <location filename="../qml/pages/MainPage.qml" line="234"/>
+        <source>%n min</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
 </context>
 <context>
     <name>MySupportDialog</name>
@@ -199,46 +223,46 @@
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="21"/>
-        <source>Translate on %1</source>
+        <source>Support port maintainer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="22"/>
-        <source>Help with translating this app in as many languages as possible.</source>
+        <source>Support Aurora OS port maintainer by donating through Boosty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="29"/>
+        <location filename="../qml/MySupportDialog.qml" line="28"/>
         <source>Develop on %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="30"/>
+        <location filename="../qml/MySupportDialog.qml" line="29"/>
         <source>Support with maintenance and packaging, write code, or provide valuable bug reports.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="36"/>
+        <location filename="../qml/MySupportDialog.qml" line="35"/>
         <source>Why should you care?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="39"/>
+        <location filename="../qml/MySupportDialog.qml" line="38"/>
         <source>This project is built with love and passion by a single developer in their spare time, and is provided to you free of charge.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="45"/>
+        <location filename="../qml/MySupportDialog.qml" line="44"/>
         <source>I develop Free Software because I am convinced that it is the ethical thing to do - and it is a fun hobby. However, developing software takes a lot of time and effort. As Sailfish and living in general costs money, I need your support to be able to spend time on non-paying projects like this.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="55"/>
+        <location filename="../qml/MySupportDialog.qml" line="54"/>
         <source>Why donate?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="58"/>
+        <location filename="../qml/MySupportDialog.qml" line="57"/>
         <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -493,104 +517,114 @@
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
+        <source>Allow extending intervals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="144"/>
+        <source>Allow delaying the alarm for the current interval by a few minutes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="151"/>
         <source>Notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="147"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="155"/>
         <source>Enable notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="156"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="156"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
         <source>Enable sounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="165"/>
         <source>Play an alarm sound when the current interval is finished.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="176"/>
         <source>Repeat until next interval</source>
         <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="171"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="179"/>
         <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="183"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="191"/>
         <source>Stop</source>
         <comment>as in “stop the alarm”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="184"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="192"/>
         <source>Preview</source>
         <comment>as in “preview the alarm sound”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="199"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="207"/>
         <source>Enable vibrations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="200"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="208"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="209"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="217"/>
         <source>Vibrations intensity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="218"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="226"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="248"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="256"/>
         <source>Note: on SailfishOS 4.3 to 4.5, vibrations only work if the “Touchscreen vibration” setting in the system settings is enabled. This is fixed in SailfishOS 4.6.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="275"/>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="271"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="279"/>
         <source>Keep the display on</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="272"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="280"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="279"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="287"/>
         <source>Use color icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="280"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="288"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="234"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="242"/>
         <source>Quiet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -605,27 +639,27 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="243"/>
         <source>Modest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="236"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="244"/>
         <source>Medium</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="237"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="245"/>
         <source>Strong</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="260"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="268"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
         <source>Note: make sure the device is not set to “mute”.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -659,54 +693,54 @@
     </message>
 </context>
 <context>
-    <name>harbour-minidoro</name>
+    <name>moe.smoothie.minidoro</name>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="262"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="279"/>
         <source>Minidoro</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="242"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="259"/>
         <source>Work</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="129"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="152"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="173"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="188"/>
         <source>%n minute(s) break</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="175"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="190"/>
         <source>Take a break until %1 o&apos;clock.</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/harbour-minidoro.qml" line="178"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="193"/>
         <source>%n minute(s) of work</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="180"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="195"/>
         <source>Work until %1 o&apos;clock.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="243"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="260"/>
         <source>Break</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-minidoro.qml" line="244"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="261"/>
         <source>Long Break</source>
         <translation type="unfinished"></translation>
     </message>

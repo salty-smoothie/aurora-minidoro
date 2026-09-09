@@ -1,4 +1,4 @@
-# This file is part of harbour-minidoro.
+# This file is part of moe.smoothie.minidoro.
 # SPDX-FileCopyrightText: 2022-2024 Mirian Margiani
 # SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -12,8 +12,9 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-minidoro
-CONFIG += sailfishapp
+TARGET = moe.smoothie.minidoro
+
+CONFIG += auroraapp
 
 # Note: version number is configured in yaml
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
@@ -22,9 +23,10 @@ include(libs/opal-cached-defines.pri)
 
 include(libs/opal.pri)
 
-SOURCES += src/harbour-minidoro.cpp
+SOURCES += src/moe.smoothie.minidoro.cpp
 
-DISTFILES += qml/harbour-minidoro.qml \
+DISTFILES += \
+    qml/moe.smoothie.minidoro.qml \
     qml/cover/CoverPage.qml \
     qml/pages/MainPage.qml \
     qml/pages/SettingsPage.qml \
@@ -34,16 +36,14 @@ DISTFILES += qml/harbour-minidoro.qml \
     qml/modules/Opal/About/*.qml \
     qml/modules/Opal/About/private/*.qml \
     qml/modules/Opal/About/private/*.js \
-    rpm/harbour-minidoro.changes.in \
-    rpm/harbour-minidoro.changes.run.in \
-    rpm/harbour-minidoro.spec \
-    rpm/harbour-minidoro.yaml \
+    rpm/moe.smoothie.minidoro.spec \
     translations/*.ts \
-    harbour-minidoro.desktop
+    moe.smoothie.minidoro.desktop
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
+AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
 
 # to disable building translations every time, comment out the
 # following CONFIG line
-CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/harbour-minidoro-*.ts
+CONFIG += auroraapp_i18n
+
+TRANSLATIONS += translations/moe.smoothie.minidoro-*.ts

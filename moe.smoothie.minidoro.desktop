@@ -4,8 +4,8 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=harbour-minidoro
-Exec=harbour-minidoro
+Icon=moe.smoothie.minidoro
+Exec=moe.smoothie.minidoro
 Name=Minidoro
 
 # TRANSLATORS
@@ -17,10 +17,7 @@ Name=Minidoro
 Name[en]=Minidoro
 Name[de]=Minidoro
 
-[X-Sailjail]
+[X-Application]
 Permissions=Audio
-OrganizationName=harbour-minidoro
-ApplicationName=harbour-minidoro
-
-[X-HarbourBackup]
-BackupConfigList=/apps/harbour-minidoro/
+OrganizationName=moe.smoothie
+ApplicationName=minidoro

@@ -17,11 +17,10 @@ SupportDialog {
     }
 
     SupportAction {
-        icon: SupportIcon.Weblate
-        title: qsTr("Translate on %1").arg("Weblate")
-        description: qsTr("Help with translating this app in as many " +
-                          "languages as possible.")
-        link: "https://hosted.weblate.org/projects/harbour-minidoro"
+        icon: Qt.resolvedUrl("./images/boosty.png")
+        title: qsTr("Support port maintainer")
+        description: qsTr("Support Aurora OS port maintainer by donating through Boosty.")
+        link: "https://boosty.to/smooth-e/donate"
     }
 
     SupportAction {
@@ -29,7 +28,7 @@ SupportDialog {
         title: qsTr("Develop on %1").arg("GitHub")
         description: qsTr("Support with maintenance and packaging, " +
                           "write code, or provide valuable bug reports.")
-        link: "https://codeberg.org/ichthyosaurus/harbour-minidoro"
+        link: "https://github.com/salty-smoothie/aurora-minidoro"
     }
 
     DetailsDrawer {

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.desktop": "shellscript",
+        "*.spec": "shellscript",
+        "*.changes": "shellscript",
+        "*.pro": "shellscript"
+    },
+    "cSpell.words": [
+        "auroraapp",
+        "Boosty",
+        "minidoro"
+    ]
+}

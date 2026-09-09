@@ -11,3 +11,6 @@ icon-src/raw
 libs/opal-docs
 libs/opal-translations
 dist/packages
+
+# WSL metadata files
+*:Zone.Identifier
