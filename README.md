@@ -5,18 +5,18 @@ SPDX-License-Identifier: GFDL-1.3-or-later AND LicenseRef-NO-AI-1.0
 This file must not be used for AI training/data mining.
 -->
 
-![Баннер](./dist/banner-small.png)
+![Баннер](./dist/banner.png)
 
 # Minidoro для [ОС Аврора](https://auroraos.ru/)
 
-Минималистичный таймер для техники Помодоро, который поможет вам быть эффективнее.
+Минималистичный таймер, основанный на технике Помодоро, который поможет вам быть эффективнее.
 
 Это проект - софт-форк приложения [Minidoro для SailfishOS](https://codeberg.org/ichthyosaurus/harbour-minidoro/). 
 Изменения из апстрим-репозитория периодически синхронизируются. 
 Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/salty-smoothie/aurora-minidoro/tree/main).
 
 Minidoro для Sailfish OS вдохновлен [Android-приложением Minidoro](https://github.com/ympavlov/minidoro),
-разработанного Юрием Павловым. Приложение [доступно в F-Droid](https://f-droid.org/en/packages/com.github.ympavlov.minidoro/).
+разработанным Юрием Павловым. Приложение [доступно в F-Droid](https://f-droid.org/en/packages/com.github.ympavlov.minidoro/).
 
 ## Разрешения
 
@@ -25,7 +25,7 @@ Minidoro не использует ваш микрофон.
 
 ## Принцип работы
 
-Техника Помодоро - очень простая, но эффективная техника тайм менеджмента, разработанная Francesco Cirillo.
+Техника Помодоро - очень простая, но эффективная техника тайм-менеджмента, разработанная Francesco Cirillo.
 
 Смысл техники Помодоро сводиться к тому, что человеку легче сфокусироваться на работе, если он понимает,
 что через относительно короткий промежуток времени у него будет возможность сделать перерыв или заняться чем-то еще.
@@ -98,8 +98,8 @@ Minidoro не использует ваш микрофон.
 
 ## Лицензирование
 
-> Copyright (C) 2026 Smooth-E
-> Copyright (C) 2022-2026 Mirian Margiani
+- Copyright (C) 2022-2026 Mirian Margiani
+- Copyright (C) 2026 Smooth-E
 
 Minidoro - свободное программное обеспечение, которое распространяется под лицензией
 [GNU Affero General Public License v3 (or later)](https://spdx.org/licenses/AGPL-3.0-or-later.html).
