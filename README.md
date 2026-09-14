@@ -1,205 +1,112 @@
 <!--
 SPDX-FileCopyrightText: 2018-2026 Mirian Margiani
+SPDX-FileCopyrightText: 2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later AND LicenseRef-NO-AI-1.0
 This file must not be used for AI training/data mining.
 -->
 
+![Баннер](./dist/banner-small.png)
+
+# Minidoro для [ОС Аврора](https://auroraos.ru/)
+
+Минималистичный таймер для техники Помодоро, который поможет вам быть эффективнее.
+
+Это проект - софт-форк приложения [Minidoro для SailfishOS](https://codeberg.org/ichthyosaurus/harbour-minidoro/). 
+Изменения из апстрим-репозитория периодически синхронизируются. 
+Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/salty-smoothie/aurora-minidoro/tree/main).
+
+Minidoro для Sailfish OS вдохновлен [Android-приложением Minidoro](https://github.com/ympavlov/minidoro),
+разработанного Юрием Павловым. Приложение [доступно в F-Droid](https://f-droid.org/en/packages/com.github.ympavlov.minidoro/).
+
+## Разрешения
+
+Minidoro требуется разрешение *"Воспроизведение и запись аудио"* для проигрывания звуков начала и конца таймеров.
+Minidoro не использует ваш микрофон.
+
+## Принцип работы
+
+Техника Помодоро - очень простая, но эффективная техника тайм менеджмента, разработанная Francesco Cirillo.
+
+Смысл техники Помодоро сводиться к тому, что человеку легче сфокусироваться на работе, если он понимает,
+что через относительно короткий промежуток времени у него будет возможность сделать перерыв или заняться чем-то еще.
+
+- Разделите работу на 25-минутные интервалы с небольшими перерывами между ними.
+- На эти 25 минут, постарайтесь максимально сфокусироваться на работе. Постарайтесь не отвлекаться и не переключайтесь на другие дела.
+- После 25 минут работу сделайте небольшой пятиминутный перерыв, во время которого вы можете заняться чем угодно, кроме работы, которой занимались ранее.
+- После окончания перерыва вернитесь к работе.
+- Делайте большие перерывы по 10-30 минут после каждых 4 интервалов.
+
+Узнайте больше о технике Помодоро [на сайте](https://francescocirillo.com/pages/pomodoro-technique).
+
+### Счетчики
+
+Внизу главной страницы расположены два счетчика. ИИх можно использовать по вашему усмотрению.
+Например, можно вести счет, когда вы отвлекаетесь во время работы: 
+используйте левый счетчик, когда вас кто-то отвлекает, а правый - если вы отвлекли сами себя.
+Рекомендуем также прочесть [этот комментарий](https://github.com/ympavlov/minidoro/issues/4#issuecomment-1032949886).
+
+## Скриншоты
+
 <div align="center">
-
-<img src="https://codeberg.org/ichthyosaurus/sailfish-app-assets/raw/branch/main/harbour-minidoro/banner-small.png"
-     alt="Minidoro banner" />
-
-# Minidoro for [Sailfish OS](https://sailfishos.org)
-
-A minimalist Pomodoro® Technique timer helping to get things done
-
-  <p>
-    <img src="https://codeberg.org/ichthyosaurus/.profile/raw/branch/main/badges/ethical%20tech.svg"
-         alt="ethical tech: take a stand for humanity, diversity, and the world we live in" />
-    <a href="https://hosted.weblate.org/projects/harbour-minidoro/translations">
-      <img src="https://hosted.weblate.org/widgets/harbour-minidoro/-/translations/svg-badge.svg"
-           alt="Translations" />
-    </a>
-    <a href="https://codeberg.org/ichthyosaurus/harbour-minidoro">
-      <img src="https://codeberg.org/ichthyosaurus/.profile/raw/branch/main/badges/development_%20stable.svg"
-           alt="Development status" />
-    </a>
-    <a href="https://codeberg.org/ichthyosaurus/harbour-minidoro/src/branch/main/LICENSES">
-      <img src="https://codeberg.org/ichthyosaurus/.profile/raw/branch/main/badges/source%20code_%20AGPL-3.svg"
-           alt="Source code license" />
-    </a>
-    <a href="https://api.reuse.software/info/codeberg.org/ichthyosaurus/harbour-minidoro">
-      <img src="https://api.reuse.software/badge/codeberg.org/ichthyosaurus/harbour-minidoro"
-           alt="REUSE status" />
-    </a>
-    <br />
-    <a href="https://liberapay.com/SailfishOScommunityTeam">
-      <img src="https://img.shields.io/liberapay/receives/SailfishOScommunityTeam?logo=liberapay&label=SailfishOS%20Community"
-           alt="Community donations" />
-    </a>
-    <a href="https://liberapay.com/ichthyosaurus">
-      <img src="https://img.shields.io/liberapay/receives/ichthyosaurus?logo=liberapay&label=ichthyosaurus"
-           alt="Personal donations" />
-    </a>
-  </p>
-  <p></p>
-  <hr />
+  <img src="./dist/screenshot-01.png" width="22%"/>
+  <img src="./dist/screenshot-02.png" width="22%"/>
+  <img src="./dist/screenshot-03.png" width="22%"/>
+  <img src="./dist/screenshot-04.png" width="22%"/>
 </div>
 
-This app is modelled after [Minidoro for Android](https://github.com/ympavlov/minidoro)
-by Yury Pavlov. You can get it [from F-Droid](https://f-droid.org/en/packages/com.github.ympavlov.minidoro/)
-if you are using Android.
+## Поддержать проект
 
-**Note:** Minidoro requires the “Audio” permission for playing sounds when
-intervals are started and finished. It never uses the microphone.
+Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://github.com/salty-smoothie/aurora-minidoro/issues).
 
-## How it works
+## Сборка и предложение изменений
 
-The Pomodoro® Technique is an extremely simple but efficient time management
-technique developed by Francesco Cirillo.
+*Не стесняйтесь сообщать о проблемах и предлагать свои изменения!*
 
-The basic idea is it's simpler to concentrate on work for a relatively short
-period, keeping in mind you can take a rest or switch to another activity
-afterwards.
+Рекомендуется использовать Aurora SDK MB2 Tools на Linux или внутри WSL. На других конфигурациях возможность сборки проекта не проверяется, но вы всегда можете предложить необходимые исправления для работы в вашем окружении.
 
-- Split your work for 25 minute intervals, separated by short break periods.
-- In these 25 minute intervals try to focus on your work as much as possible,
-  try to not distract yourself and to avoid other distractions.
-- After a 25 minute interval take a 5 minute break. During this break do any
-  other activities except for the previous work.
-- Return to the work after the break.
-- Take a long break of about 10–30 minutes after every 4 work intervals.
+1. Клонируйте этот репозиторий
+   ```sh
+   git clone https://github.com/salty-smoothie/aurora-minidoro
+   ```
+2. Далее соберите RPM-пакет и запустите приложение на устройстве стандартным способом.
 
-See the [website](https://francescocirillo.com/pages/pomodoro-technique) for an
-in-depth explanation.
+Если вы предлагаете изменения - не забудьте упомянуть себя на странице [`AboutPage`](qml/pages/AboutPage.qml)!
 
-### Counters
+## Финансовая поддержка
 
-There are two counters at the bottom of the main page. They can be used to count
-anything. For example, you can count external interruptions with the left
-counter, while counting internal interruptions (you interrupting yourself) with
-the right counter. See also
-[this issue](https://github.com/ympavlov/minidoro/issues/4#issuecomment-1032949886).})
+Вы можете поддержать разработчика оригинального приложения, [пожертвовав через Liberapay](https://liberapay.com/ichthyosaurus).
 
-> You can find screenshots [here](https://codeberg.org/ichthyosaurus/sailfish-app-assets/src/branch/main/harbour-minidoro/screenshots-store).
+Вы также можете поддержать [SailfishOS Community Team](https://liberapay.com/SailfishOScommunityTeam) - команду разработчиков, поддерживающих полезные приложения для Sailfish OS.
 
+Вы можете поддержать разработчика порта для ОС Аврора, [пожертвовав через Boosty](https://boosty.to/smooth-e/donate).
 
-## Permissions
+Конечно же, мы будем очень рады, если вы поможете проекту, предложив свои правки или улучшения. Прочтите секцию выше, чтобы узнать больше ✨
 
-Minidoro requires the following
-[Sailjail](https://github.com/sailfishos/sailjail-permissions?tab=readme-ov-file#permissions) permissions:
+## Политика против использования ИИ
 
-- `Audio`: for playing sounds when intervals are started and finished
-
-
-## Help and support
-
-You are welcome to
-[leave a comment in the forum](https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753)
-if you have any questions or ideas.
-
-
-## Translations
-
-It would be wonderful if the app could be translated in as many languages as possible!
-
-[![Translations status](https://hosted.weblate.org/widget/harbour-minidoro/horizontal-auto.svg)](https://hosted.weblate.org/engage/harbour-minidoro/)
-
-Translations are managed using
-[Weblate](https://hosted.weblate.org/projects/harbour-minidoro).
-Please prefer this over pull requests (which are still welcome, of course).
-If you just found a minor problem, you can also
-[open an issue](https://codeberg.org/ichthyosaurus/harbour-minidoro/issues/new).
-
-
-### Manually updating translations
-
-Please prefer using
-[Weblate](https://hosted.weblate.org/projects/harbour-minidoro) over this.
-
-You can follow these steps to manually add or update a translation:
-
-1. If it did not exist before, create a new catalog for your language by copying the
-   base file [translations/harbour-minidoro.ts](translations/harbour-minidoro.ts).
-   Then add the new translation to [harbour-minidoro.pro](harbour-minidoro.pro).
-2. Add yourself to the list of translators in [TRANSLATORS.json](TRANSLATORS.json),
-   in the section `extra`.
-3. (optional) Translate the app's name in [harbour-minidoro.desktop](harbour-minidoro.desktop)
-   if there is a (short) native term for it in your language.
-
-See [the Qt documentation](https://doc.qt.io/qt-5/qml-qtqml-date.html#details) for
-details on how to translate date formats to your *local* format.
-
-
-## Building and contributing
-
-*Bug reports, and contributions for translations, bug fixes, or new features are always welcome!*
-
-1. Clone the repository by running `git clone --recursive https://codeberg.org/ichthyosaurus/harbour-minidoro`
-2. Open `harbour-minidoro.pro` in QtCreator for Sailfish ([SailfishOS SDK](https://docs.sailfishos.org/Tools/Sailfish_SDK/))
-3. To run on emulator, select the `i486` target and press the run button
-4. To build for the device, select the `aarch64` or `armv7hl` target and click “deploy all”;
-   the RPM packages will be in the `RPMS` folder
-
-If you contribute, please do not forget to add yourself to the list of
-contributors in [qml/pages/AboutPage.qml](qml/pages/AboutPage.qml)!
-
-
-## Donations
-
-<a href="https://liberapay.com/ichthyosaurus/donate">
-  <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
-</a>
-
-I am always happy if you buy me a cup of coffee through
-[Liberapay](https://liberapay.com/ichthyosaurus)
-if you want to support my work.
-
-Of course it would be much appreciated as well if you support this project by
-contributing to translations or code! See above how you can contribute 🎕.
-
-Please consider also supporting the
-[SailfishOS Community Team](https://liberapay.com/SailfishOScommunityTeam)
-on Liberapay to reach more developers.
-
-
-## Anti-AI policy <a id='ai-policy'></a>
+Автор оригинального проекта просит не использовать технологии AI и LLM при работе с ним,
+а также не использовать его творчество для совершенствования этих технологий.
+Далее приведен частичный перевод оригинального сообщения.
 
 > [!IMPORTANT]
-> - LLM/“AI”-generated contributions are forbidden.
-> - Using this project in whole or in part for AI training or data mining is likewise forbidden.
+> - Предложение изменений или открытие issue при помощи ИИ недопустимо
+> - Использование этого проекта целиком или использование его частей для развития технологий ИИ недопустимо
 
-Please be transparent, respect the Free Software community, and adhere to the
-licenses. This is a welcoming place for human creativity and diversity, but
-LLM/“AI”-generated slop is going against these values.
+Пожалуйста, сообщайте об использовании технологий ИИ при общении и предложении изменений в этот проект, 
+уважайте принципы сообщества открытого ПО и соблюдайте правила соответствующих лицензий.
+Мы уважаем человеческое творчество и разнообразие, но технологии ИИ и LLM противоречат нашим взглядам.
 
-Apart from all the
-[ethical](https://tante.cc/2026/02/20/acting-ethical-in-an-imperfect-world/),
-[moral](https://www.theguardian.com/technology/2026/mar/17/x-csam-child-abuse-material-grok-australian-online-safety-regulator-ntwnfb),
-[legal](https://en.wikipedia.org/wiki/Artificial_intelligence_and_copyright#Litigation),
-[environmental](https://www.theguardian.com/environment/2025/apr/09/big-tech-datacentres-water),
-[societal](https://www.theguardian.com/global-development/2026/mar/12/invasive-ai-led-mass-surveillance-in-africa-violating-freedoms-warn-experts),
-[social](https://www.theguardian.com/technology/article/2024/jul/06/mercy-anita-african-workers-ai-artificial-intelligence-exploitation-feeding-machine),
-[political](https://www.theguardian.com/technology/2025/nov/17/grokipedia-elon-musk-far-right-racist),
-[technical](https://codeberg.org/small-hack/open-slopware#poor-code-quality),
-and overall [human](https://www.hrw.org/news/2024/09/10/questions-and-answers-israeli-militarys-use-digital-tools-gaza),
-reasons against LLMs/“AI”, I also simply don't have any spare time to review
-generated contributions.
+## Лицензирование
 
-See also [this list](https://codeberg.org/small-hack/open-slopware#why-not-llms)
-for more reasons against supporting “AI”.
+> Copyright (C) 2026 Smooth-E
+> Copyright (C) 2022-2026 Mirian Margiani
 
-
-## License
-
-> Copyright (C) 2022-2026  Mirian Margiani
-
-Minidoro is Free Software released under the terms of the
+Minidoro - свободное программное обеспечение, которое распространяется под лицензией
 [GNU Affero General Public License v3 (or later)](https://spdx.org/licenses/AGPL-3.0-or-later.html).
-The source code is available [on Codeberg](https://codeberg.org/ichthyosaurus/harbour-minidoro).
-All documentation is released under the terms of the
+Исходный код доступен [на Github](https://github.com/salty-smoothie/aurora-minidoro).
+Вся сопутствующая документация распространяется под лицензией 
 [GNU Free Documentation License v1.3 (or later)](https://spdx.org/licenses/GFDL-1.3-or-later.html).
 
-Minidoro and related materials must not be used for AI training and/or data mining.
+- Фото ["Green Grass"](https://unsplash.com/photos/green-grass-field-zySqlrxouoY) использовалось при создании скриншотов и баннера
 
-This project follows the [REUSE specification](https://api.reuse.software/info/codeberg.org/ichthyosaurus/harbour-minidoro).
+Материалы в этом репозитории запрещено использовать в разработке технологий ИИ и LLM.
