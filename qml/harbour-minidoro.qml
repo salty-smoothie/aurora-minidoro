@@ -208,6 +208,8 @@ ApplicationWindow {
         property bool enablePostpone: true
         property bool enableAudioFeedback: true
         property bool loopAlarm: true
+        property string soundStart: "default"
+        property string soundEnd: "default"
         property bool enableHapticFeedback: true
         property bool enableNotifications: true
         property real hapticIntensity: 0.8
@@ -365,13 +367,19 @@ ApplicationWindow {
 
     SoundEffect {
         id: alarm
-        source: Qt.resolvedUrl("audio/finish.wav")
+        source: {
+            if (config.soundEnd == "default") Qt.resolvedUrl("audio/finish.wav")
+            else Qt.resolvedUrl("audio/finish.wav")
+        }
         loops: config.loopAlarm ? SoundEffect.Infinite : 1
     }
 
     SoundEffect {
         id: startPing
-        source: Qt.resolvedUrl("audio/start.wav")
+        source: {
+            if (config.soundStart == "default") Qt.resolvedUrl("audio/start.wav")
+            else Qt.resolvedUrl("audio/start.wav")
+        }
     }
 
     A.ChangelogNews {

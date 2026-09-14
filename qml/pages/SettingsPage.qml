@@ -7,6 +7,8 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 
+import Opal.ComboData 1.0
+
 Page {
     id: page
     allowedOrientations: Orientation.All
@@ -183,6 +185,27 @@ Page {
                 checked: appWindow.config.loopAlarm
                 onClicked: appWindow.config.loopAlarm =
                            !appWindow.config.loopAlarm
+            }
+
+            ComboBox {
+                label: qsTr("Alarm sound")
+
+                property ComboData cdata
+                ComboData { dataRole: "value" }
+
+                onValueChanged: appWindow.config.soundEnd = cdata.currentData
+                Component.onCompleted: cdata.reset(appWindow.config.soundEnd)
+
+                menu: ContextMenu {
+                    MenuItem {
+                        property string value: "default"
+                        text: qsTr("Default")
+                    }
+                    /* MenuItem { // TODO
+                        property string value: "gong-1"
+                        text: qsTr("Gong %s").arg("1")
+                    } */
+                }
             }
 
             Button {
