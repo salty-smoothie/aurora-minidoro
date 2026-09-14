@@ -101,17 +101,17 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="34"/>
         <source>If you found this app helpful, feel welcome to support the original developer or the Aurora OS port maintainer by donating.</source>
-        <translation type="unfinished"></translation>
+        <translation>If you found this app helpful, feel welcome to support the original developer or the Aurora OS port maintainer by donating.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="39"/>
         <source>App dev&apos;s Liberapay</source>
-        <translation type="unfinished"></translation>
+        <translation>App dev&apos;s Liberapay</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="43"/>
         <source>Port maintainer&apos;s Boosty</source>
-        <translation type="unfinished"></translation>
+        <translation>Port maintainer&apos;s Boosty</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="169"/>
@@ -155,12 +155,12 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="87"/>
         <source>Swipe left to preview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Swipe left to preview.</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="87"/>
         <source>You are using a mobile data connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>You are using a mobile data connection.</translation>
     </message>
 </context>
 <context>
@@ -204,7 +204,7 @@
         <location filename="../qml/pages/MainPage.qml" line="228"/>
         <location filename="../qml/pages/MainPage.qml" line="234"/>
         <source>%n min</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%n min</numerusform>
             <numerusform>%n min</numerusform>
         </translation>
@@ -225,12 +225,12 @@
     <message>
         <location filename="../qml/MySupportDialog.qml" line="21"/>
         <source>Support port maintainer</source>
-        <translation type="unfinished"></translation>
+        <translation>Support port maintainer</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="22"/>
         <source>Support Aurora OS port maintainer by donating through Boosty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Support Aurora OS port maintainer by donating through Boosty.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="28"/>
@@ -327,7 +327,7 @@
     <message>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="40"/>
         <source>You are using a mobile data connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>You are using a mobile data connection.</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="45"/>
@@ -425,7 +425,7 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="51"/>
         <source>Phone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Phone number</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="51"/>
@@ -435,12 +435,12 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="73"/>
         <source>Copy link</source>
-        <translation type="unfinished"></translation>
+        <translation>Copy link</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="75"/>
         <source>Copy text</source>
-        <translation type="unfinished"></translation>
+        <translation>Copy text</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="79"/>
@@ -470,12 +470,12 @@
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/PreviewPage.qml" line="27"/>
         <source>No preview available.</source>
-        <translation type="unfinished"></translation>
+        <translation>No preview available.</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/LinkHandler/private/PreviewPage.qml" line="28"/>
         <source>The page is taking too long to load.</source>
-        <translation type="unfinished"></translation>
+        <translation>The page is taking too long to load.</translation>
     </message>
 </context>
 <context>
@@ -522,12 +522,12 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="143"/>
         <source>Allow extending intervals</source>
-        <translation type="unfinished"></translation>
+        <translation>Allow extending intervals</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="144"/>
         <source>Allow delaying the alarm for the current interval by a few minutes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Allow delaying the alarm for the current interval by a few minutes.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="151"/>
@@ -698,53 +698,53 @@
         <location filename="../qml/moe.smoothie.minidoro.qml" line="153"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation type="unfinished"></translation>
+        <translation>h:mm</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/moe.smoothie.minidoro.qml" line="189"/>
         <source>%n minute(s) break</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minute</numerusform>
+            <numerusform>%n minutes</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="191"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Take a break until %1 o&apos;clock.</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/moe.smoothie.minidoro.qml" line="194"/>
         <source>%n minute(s) of work</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minute of work</numerusform>
+            <numerusform>%n minutes of work</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="196"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Work until %1 o&apos;clock.</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="260"/>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>Work</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="261"/>
         <source>Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Break</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="262"/>
         <source>Long Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Long Break</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="311"/>
         <source>Minidoro</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro</translation>
     </message>
 </context>
 </TS>

@@ -703,55 +703,55 @@
         <location filename="../qml/moe.smoothie.minidoro.qml" line="153"/>
         <source>h:mm</source>
         <comment>time format, as in “10:15” without “o&apos;clock”</comment>
-        <translation type="unfinished"></translation>
+        <translation>h:mm</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/moe.smoothie.minidoro.qml" line="189"/>
         <source>%n minute(s) break</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n минута перерыва</numerusform>
+            <numerusform>%n минуты перерыва</numerusform>
+            <numerusform>%n минут перерыва</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="191"/>
         <source>Take a break until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сделайте перерыв до %1.</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/moe.smoothie.minidoro.qml" line="194"/>
         <source>%n minute(s) of work</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n минута работы</numerusform>
+            <numerusform>%n минуты работы</numerusform>
+            <numerusform>%n минут работы</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="196"/>
         <source>Work until %1 o&apos;clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Работайте до %1.</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="260"/>
         <source>Work</source>
-        <translation type="unfinished"></translation>
+        <translation>Работа</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="261"/>
         <source>Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Перерыв</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="262"/>
         <source>Long Break</source>
-        <translation type="unfinished"></translation>
+        <translation>Долгий перерыв</translation>
     </message>
     <message>
         <location filename="../qml/moe.smoothie.minidoro.qml" line="311"/>
         <source>Minidoro</source>
-        <translation type="unfinished"></translation>
+        <translation>Minidoro</translation>
     </message>
 </context>
 </TS>
