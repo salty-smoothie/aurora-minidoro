@@ -47,7 +47,7 @@ A.AboutPageBase {
 
     description: qsTr("Minidoro is a minimalist Pomodoro® Technique " +
                       "timer helping to get things done.")
-    mainAttributions: [ "2025-2026 Smooth-E", "2020-%1 Mirian Margiani".arg((new Date()).getFullYear()) ]
+    mainAttributions: [ "2026 Smooth-E", "2020-%1 Mirian Margiani".arg((new Date()).getFullYear()) ]
 
     attributions: [
         A.Attribution {

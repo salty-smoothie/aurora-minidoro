@@ -1,6 +1,7 @@
 /*
  * This file is part of harbour-minidoro.
- * SPDX-FileCopyrightText: Mirian Margiani
+ * SPDX-FileCopyrightText: 2022-2026 Mirian Margiani
+ * SPDX-FileCopyrightText: 2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -8,6 +9,14 @@ import QtQuick 2.0
 import "modules/Opal/About"
 
 ChangelogList {
+    ChangelogItem {
+        version: "1.3.0.1-1"
+        date: "2026-09-14"
+        paragraphs: [
+            "- Первый релиз для ОС Аврора<br>" +
+            "- Улучшены переводы на Русский язык"
+        ]
+    }
     ChangelogItem {
         version: "1.3.0-1"
         date: "2026-01-11"
