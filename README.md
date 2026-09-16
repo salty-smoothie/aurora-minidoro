@@ -11,6 +11,10 @@ This file must not be used for AI training/data mining.
 
 Минималистичный таймер, основанный на технике Помодоро, который поможет вам быть эффективнее.
 
+| Ссылки для скачивания |
+| --- |
+| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/minidoro) <br> 😼 [Скачать RPM](https://github.com/salty-smoothie/aurora-minidoro/releases/latest/) |
+
 Это проект - софт-форк приложения [Minidoro для SailfishOS](https://codeberg.org/ichthyosaurus/harbour-minidoro/). 
 Изменения из апстрим-репозитория периодически синхронизируются. 
 Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/salty-smoothie/aurora-minidoro/tree/main).
