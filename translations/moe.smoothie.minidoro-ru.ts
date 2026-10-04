@@ -484,38 +484,38 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="27"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="29"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="31"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="33"/>
         <source>Intervals</source>
         <translation>Периоды</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="40"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="42"/>
         <source>Wait for the current interval to finish to change interval durations.</source>
         <comment>This is a reminder that some settings are disabled while timers are running.</comment>
         <translation>Дождитесь окончания текущего интервала, чтобы изменить продолжительность.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="75"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="77"/>
         <source>Work duration</source>
         <translation>Продолжительность работы</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="94"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="96"/>
         <source>Break duration</source>
         <translation>Продолжительность перерыва</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="115"/>
         <source>Long break duration</source>
         <translation>Большая продолжительность перерыва</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="134"/>
         <source>Long break after %n interval(s)</source>
         <translation>
             <numerusform>Длительный перерыв после %n периода</numerusform>
@@ -524,117 +524,127 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="143"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
         <source>Allow extending intervals</source>
         <translation>Разрешить увеличивать интервалы</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="144"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
         <source>Allow delaying the alarm for the current interval by a few minutes.</source>
         <translation>Разрешить переносить напоминание для текущего интервала на несколько минут.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="151"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
         <source>Notifications</source>
         <translation>Уведомления</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="155"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
         <source>Enable notifications</source>
         <translation>Включить уведомления</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="156"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="158"/>
         <source>Show notifications when the current interval is finished and you may start the next interval.</source>
         <translation>Отображение уведомлений о завершении текущего периода и возможности начать следующий период.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="166"/>
         <source>Enable sounds</source>
         <translation>Включить звуки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="165"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
         <source>Play an alarm sound when the current interval is finished.</source>
         <translation>Воспроизведение звукового сигнала по окончании текущего периода.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="176"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="178"/>
         <source>Repeat until next interval</source>
         <comment>as in “repeat the alarm until the next interval starts” but as short as possible; there is a description explaining the button</comment>
         <translation>Повторять напоминания</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="179"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="181"/>
         <source>Repeat the alarm sound until the next interval is started. Disable this to only play the alarm once.</source>
         <translation>Проигрывать звук напоминания, пока не будет начат следующий интервал. Отключите эту опцию, чтобы проигрывать звук напоминания один раз.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="191"/>
+        <source>Alarm sound</source>
+        <translation>Звук уведомления</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="202"/>
+        <source>Default</source>
+        <translation>Стандартный</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="214"/>
         <source>Stop</source>
         <comment>as in “stop the alarm”</comment>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="192"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="215"/>
         <source>Preview</source>
         <comment>as in “preview the alarm sound”</comment>
         <translation>Попробовать</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="207"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="230"/>
         <source>Enable vibrations</source>
         <translation>Включить вибрацию</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="208"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="231"/>
         <source>Vibrate the device when an interval starts or the current interval is finished.</source>
         <translation>Вибрация устройства при начале периода или завершении текущего периода.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="217"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="240"/>
         <source>Vibrations intensity</source>
         <translation>Интенсивность вибраций</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="226"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="249"/>
         <source>It is advised to choose a low setting in quiet areas. The medium setting is intended for busy environments and concentrated work.</source>
         <translation>В тихих помещениях рекомендуется выбирать низкую силу вибрации. Средняя сила вибрации предназначена для напряженной обстановки и сосредоточенной работы.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="262"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="285"/>
         <source>General</source>
         <translation>Общие настройки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="266"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="289"/>
         <source>Keep the display on</source>
         <translation>Держать дисплей включенным</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="290"/>
         <source>Make sure the display does not turn off while you are working.</source>
         <translation>Убедитесь, что дисплей не выключается во время работы.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="274"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="297"/>
         <source>Use color icons</source>
         <translation>Использовать цветные значки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="275"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="298"/>
         <source>Disable this option if you prefer icons that fit more into the system ambience.</source>
         <translation>Отключите эту опцию, если вы предпочитаете значки, более подходящие к системной атмосфере (теме оформления).</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="242"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="265"/>
         <source>Quiet</source>
         <translation>Тихо</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SettingsPage.qml" line="73"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="111"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="75"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="94"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>%n min</source>
         <comment>as in “x minutes”</comment>
         <translation>
@@ -644,27 +654,27 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="243"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="266"/>
         <source>Modest</source>
         <translation>Минимально</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="244"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
         <source>Medium</source>
         <translation>Средне</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="245"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="268"/>
         <source>Strong</source>
         <translation>Сильно</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="255"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="278"/>
         <source>Note: the haptic feedback module could not be initialized. This should not happen and most probably is a bug. Please report this problem to the author.</source>
         <translation>Примечание: не удалось инициализировать модуль тактильной обратной связи. Этого не должно происходить и, скорее всего, является ошибкой. Пожалуйста, сообщите об этом автору.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="167"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="169"/>
         <source>Note: make sure the device is not set to “mute”.</source>
         <translation>Примечание: убедитесь, что устройство не установлено в режим &quot;mute&quot;.</translation>
     </message>
@@ -734,22 +744,22 @@
         <translation>Работайте до %1.</translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="260"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="262"/>
         <source>Work</source>
         <translation>Работа</translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="261"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="263"/>
         <source>Break</source>
         <translation>Перерыв</translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="262"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="264"/>
         <source>Long Break</source>
         <translation>Долгий перерыв</translation>
     </message>
     <message>
-        <location filename="../qml/moe.smoothie.minidoro.qml" line="311"/>
+        <location filename="../qml/moe.smoothie.minidoro.qml" line="313"/>
         <source>Minidoro</source>
         <translation>Minidoro</translation>
     </message>
